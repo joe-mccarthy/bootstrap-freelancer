@@ -1,2 +1,0 @@
-# hugo-bootstrap-freelancer-template
-
