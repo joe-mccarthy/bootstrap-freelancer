@@ -1,0 +1,63 @@
+baseURL = 'example.com'
+languageCode = 'en-us'
+title = 'Freelancer'
+
+theme = "hugo-bootstrap-freelancer-template"
+summaryLength=40
+paginate=9
+
+
+[params]
+  tagLine = "Tag line for the home page"
+  homePosts = 3
+  homeProjects = 3
+
+  aboutLeft = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum dui faucibus in ornare quam viverra."
+  aboutRight = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum dui faucibus in ornare quam viverra."
+
+[params.location]
+  lineOne = "The Internet"
+  lineTwo = "Worldwide" 
+
+[params.sbform]
+      token = ""
+
+[[params.social]]
+      icon      = "git" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://codeberg.org/joseph-mccarthy/hugo-bootstrap-freelancer-template"
+
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+[[related.indices]]
+  name = 'tags'
+  weight = 100
+[[related.indices]]
+  name = 'date'
+  weight = 10
+
+[markup]
+  [markup.highlight]
+    margin = 10
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = 'friendly'
+    tabWidth = 4
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputFormats]
+     [outputFormats.RSS]
+         mediaType = "application/rss+xml"
+         baseName = "feed"
