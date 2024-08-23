@@ -2,7 +2,7 @@ baseURL = 'example.com'
 languageCode = 'en-us'
 title = 'Freelancer'
 
-theme = "hugo-bootstrap-freelancer-template"
+theme = "bootstrap-freelancer"
 summaryLength=40
 paginate=9
 
@@ -25,7 +25,7 @@ paginate=9
 [[params.social]]
       icon      = "git" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://codeberg.org/joseph-mccarthy/hugo-bootstrap-freelancer-template"
+      url       = "https://github.com/joe-mccarthy/bootstrap-freelance"
 
 
 [related]
