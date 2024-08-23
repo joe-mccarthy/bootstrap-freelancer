@@ -25,7 +25,7 @@ paginate=9
 [[params.social]]
       icon      = "git" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/joe-mccarthy/bootstrap-freelance"
+      url       = "https://github.com/joe-mccarthy/bootstrap-freelancer"
 
 
 [related]
