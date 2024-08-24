@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added commits since last release badge to readme
 
+### Removed
+
+- Removed commits since last release badge from readme
+
 ## [1.0.0] - 2024-08-23
 
 ### Added
