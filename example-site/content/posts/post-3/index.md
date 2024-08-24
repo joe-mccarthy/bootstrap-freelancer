@@ -3,7 +3,7 @@ title: "Post 3"
 date: 2024-03-10T19:52:20Z
 draft: false
 tags: ["tag 1","tag 2"]
-categories: ["category one"]
+categories: ["category two"]
 sidebar: false
 hero: "hero.png"
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
