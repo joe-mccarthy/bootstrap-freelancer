@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added commits since last release badge to readme
 
+### Changed
+
+- [#1](https://github.com/joe-mccarthy/bootstrap-freelancer/issues/1) Home link is now absolute
+- [#1](https://github.com/joe-mccarthy/bootstrap-freelancer/issues/1) Tag links are now absolute
+
 ### Removed
 
 - Removed commits since last release badge from readme
