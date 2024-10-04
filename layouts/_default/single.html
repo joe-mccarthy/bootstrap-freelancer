@@ -16,6 +16,11 @@
 			{{ if isset .Params "tags" -}}
 			<div class="row  mb-3 ">
 				<div class="col text-center text-nowrap ">		
+
+				{{ range $index, $name := sort .Params.categories -}}
+					<a class="h4" href={{$.Site.BaseURL}}{{ (printf "categories/%s/" $name) | urlize }} title="{{$name | markdownify }}"><span class="badge bg-secondary p-2 m-1 ">{{$name | markdownify}}</span></a>
+				{{end}}
+
 				{{ range $index, $name := sort .Params.tags -}}
 					<a class="h4" href={{$.Site.BaseURL}}{{ (printf "tags/%s/" $name) | urlize }} title="{{$name | markdownify }}"><span class="badge bg-primary p-2 m-1 ">{{$name | markdownify}}</span></a>
 				{{end}}
