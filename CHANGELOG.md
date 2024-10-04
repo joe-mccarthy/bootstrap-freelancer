@@ -7,9 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0]
+
 ### Added
 
 - Added commits since last release badge to readme
+- [#2](https://github.com/joe-mccarthy/bootstrap-freelancer/issues/2) Added Categories to Posts
+- [#3](https://github.com/joe-mccarthy/bootstrap-freelancer/issues/3) Added examples of tag and cateogry pages to example site
 
 ### Changed
 
@@ -26,5 +30,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial Release
 
-[unreleased]: https://github.com/joe-mccarthy/bootstrap-freelancer/compare/1.0.0...HEAD
+[unreleased]: https://github.com/joe-mccarthy/bootstrap-freelancer/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/joe-mccarthy/bootstrap-freelancer/releases/tag/1.1.0
 [1.0.0]: https://github.com/joe-mccarthy/bootstrap-freelancer/releases/tag/1.0.0
