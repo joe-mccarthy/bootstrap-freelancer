@@ -18,7 +18,7 @@
 				<div class="col text-center text-nowrap ">		
 
 				{{ range $int, $cat := sort .Params.categories -}}
-					<a class="h4" href={{$.Site.BaseURL}}{{ (printf "categories/%s/" $name) | urlize }} title="{{$cat | markdownify }}"><span class="badge bg-secondary p-2 m-1 ">{{$cat | markdownify}}</span></a>
+					<a class="h4" href={{$.Site.BaseURL}}{{ (printf "categories/%s/" $cat) | urlize }} title="{{$cat | markdownify }}"><span class="badge bg-secondary p-2 m-1 ">{{$cat | markdownify}}</span></a>
 				{{end}}
 
 				{{ range $index, $name := sort .Params.tags -}}
