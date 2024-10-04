@@ -17,7 +17,7 @@
 			<div class="row  mb-3 ">
 				<div class="col text-center text-nowrap ">		
 
-				{{ range $int, $cat := sort .Params.categories -}}
+				{{ range $int, $cat :=  .Params.categories -}}
 					<a class="h4" href={{$.Site.BaseURL}}{{ (printf "categories/%s/" $cat) | urlize }} title="{{$cat | markdownify }}"><span class="badge bg-secondary p-2 m-1 ">{{$cat | markdownify}}</span></a>
 				{{end}}
 
